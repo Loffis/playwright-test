@@ -1,0 +1,20 @@
+{
+    "name": "playwright-test",
+    "version": "1.0.0",
+    "description": "testing playwright",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon --trace-warnings index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Loffe Knutsson",
+    "license": "ISC",
+    "dependencies": {
+        "image-to-base64": "^2.1.1",
+        "playwright": "^1.9.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
